@@ -1,0 +1,52 @@
+{
+    "categorias": {
+        "exposicion_credenciales": {
+            "ejemplos": [
+                {
+                    "titulo": "Credenciales en Redes Sociales",
+                    "descripcion": "Un empleado subcontratado del equipo de TI publicó una foto en LinkedIn donde se podían ver las credenciales de acceso remoto en una nota pegada en su portátil. La imagen mostraba claramente el usuario y contraseña de acceso al sistema."
+                },
+                {
+                    "titulo": "Post-it con Contraseñas",
+                    "descripcion": "Se encontraron varias notas adhesivas con contraseñas pegadas en monitores y bajo teclados durante una auditoría de seguridad física."
+                },
+                {
+                    "titulo": "Compartir Credenciales por Email",
+                    "descripcion": "Un empleado compartió sus credenciales de acceso por correo electrónico con un compañero para que pudiera realizar una tarea en su ausencia."
+                }
+            ]
+        },
+        "phishing": {
+            "ejemplos": [
+                {
+                    "titulo": "Phishing a Tesorería",
+                    "descripcion": "Un empleado del departamento de tesorería recibió un correo electrónico supuestamente del CEO solicitando una transferencia urgente de 3.500.000€. El correo provenía de la dirección cr4ck.100@irnini.com y la IP 79.3.190.255."
+                },
+                {
+                    "titulo": "Phishing de Credenciales",
+                    "descripcion": "Varios empleados recibieron un correo aparentemente del departamento de TI solicitando que actualizaran sus credenciales haciendo clic en un enlace."
+                },
+                {
+                    "titulo": "Phishing de Documentos",
+                    "descripcion": "Un empleado recibió un correo con un documento adjunto que parecía ser una factura importante. Al abrirlo, se activó un malware que comprometió su equipo."
+                }
+            ]
+        },
+        "fuga_datos": {
+            "ejemplos": [
+                {
+                    "titulo": "Fuga de Datos de Clientes",
+                    "descripcion": "Se detectó que un archivo con datos sensibles de clientes fue enviado a una dirección de correo externa. El archivo contenía información personal, datos de contacto y detalles de contratos."
+                },
+                {
+                    "titulo": "Acceso No Autorizado a Base de Datos",
+                    "descripcion": "Un ex-empleado mantuvo acceso a la base de datos de clientes y extrajo información confidencial antes de que se desactivaran sus credenciales."
+                },
+                {
+                    "titulo": "Dispositivo Perdido con Datos Sensibles",
+                    "descripcion": "Un portátil de la empresa con información sensible de clientes fue robado. El dispositivo no tenía cifrado de disco y las credenciales estaban guardadas en el navegador."
+                }
+            ]
+        }
+    }
+} 

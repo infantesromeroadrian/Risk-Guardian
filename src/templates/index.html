@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Terra Renewables - Sistema de Gestión de Ciberseguridad</h1>
+    </header>
+
+    <main>
+        <section id="incident-form">
+            <h2>Análisis de Incidente</h2>
+            <section class="examples-section">
+                <h2>Ejemplos de Incidentes</h2>
+                <div class="examples-list">
+                    <button class="example-btn" data-category="exposicion_credenciales">Exposición de Credenciales</button>
+                    <button class="example-btn" data-category="phishing">Ataques de Phishing</button>
+                    <button class="example-btn" data-category="fuga_datos">Fuga de Datos</button>
+                </div>
+                
+                <div id="subexamples-exposicion_credenciales" class="subexamples-list">
+                    <!-- Los ejemplos se cargarán dinámicamente -->
+                </div>
+                <div id="subexamples-phishing" class="subexamples-list">
+                    <!-- Los ejemplos se cargarán dinámicamente -->
+                </div>
+                <div id="subexamples-fuga_datos" class="subexamples-list">
+                    <!-- Los ejemplos se cargarán dinámicamente -->
+                </div>
+            </section>
+            <form id="analysis-form">
+                <div class="form-group">
+                    <label for="incident-title">Título del Incidente:</label>
+                    <input type="text" id="incident-title" name="incident-title" required>
+                </div>
+                <div class="form-group">
+                    <label for="incident-description">Descripción del Incidente:</label>
+                    <textarea id="incident-description" name="incident-description" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="analyze-btn">Analizar Incidente</button>
+            </form>
+
+            <div id="result-section" class="result-section">
+                <h3>Resultados del Análisis</h3>
+                <div class="result-content">
+                    <div class="result-group">
+                        <h4>Vulnerabilidades Identificadas</h4>
+                        <div id="vulnerabilities-list" class="result-list"></div>
+                    </div>
+                    <div class="result-group">
+                        <h4>Impactos Potenciales</h4>
+                        <div id="impacts-list" class="result-list"></div>
+                    </div>
+                    <div class="result-group">
+                        <h4>Controles Recomendados</h4>
+                        <div id="controls-list" class="result-list"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Terra Renewables &copy; 2024</p>
+    </footer>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html> 
