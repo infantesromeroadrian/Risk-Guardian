@@ -23,7 +23,7 @@ VulnGuard es una herramienta de análisis de vulnerabilidades y gestión de segu
 
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/vulnguard.git
+git clone https://github.com/tu-usuario/risk-guardian.git
 cd vulnguard
 ```
 
