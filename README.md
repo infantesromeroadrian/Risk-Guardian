@@ -1,7 +1,7 @@
-# VulnGuard - Sistema de Análisis de Vulnerabilidades
+# RiskGuard - Sistema de Análisis de Vulnerabilidades
 
 ## Descripción
-VulnGuard es una herramienta de análisis de vulnerabilidades y gestión de seguridad diseñada para ayudar a las organizaciones a identificar, evaluar y mitigar riesgos de seguridad. Desarrollada como parte de un proyecto de ciberseguridad, esta herramienta proporciona un enfoque integral para la gestión de vulnerabilidades y la mejora de la postura de seguridad.
+RiskGuard es una herramienta de análisis de vulnerabilidades y gestión de seguridad diseñada para ayudar a las organizaciones a identificar, evaluar y mitigar riesgos de seguridad. Desarrollada como parte de un proyecto de ciberseguridad, esta herramienta proporciona un enfoque integral para la gestión de vulnerabilidades y la mejora de la postura de seguridad.
 
 ## Características Principales
 
